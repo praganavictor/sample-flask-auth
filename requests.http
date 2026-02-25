@@ -1,0 +1,30 @@
+# Create user 
+
+POST http://localhost:5000/user
+Content-Type: application/json
+
+{
+    "username": "victorpragana",
+    "password": "123"
+}
+
+###
+
+# Login User
+
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "username": "victorpragana",
+    "password": "123"
+}
+
+###
+
+# Logout User
+
+GET http://localhost:5000/logout
+Content-Type: application/json
+
+###
