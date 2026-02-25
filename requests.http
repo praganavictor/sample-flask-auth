@@ -28,3 +28,21 @@ GET http://localhost:5000/logout
 Content-Type: application/json
 
 ###
+
+# Get user
+
+GET http://localhost:5000/user/1
+Content-Type: application/json
+
+###
+
+# Update User
+
+PUT http://localhost:5000/user/1
+Content-Type: application/json
+
+{
+    "password": "admin123"
+}
+
+###
